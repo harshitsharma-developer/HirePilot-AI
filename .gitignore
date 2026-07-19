@@ -1,0 +1,19 @@
+# Dependencies / env
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+*.pdf
+
+# Build / IDE
+.next/
+out/
+dist/
+.DS_Store
+.idea/
+.vscode/
+*.log
+.vercel/

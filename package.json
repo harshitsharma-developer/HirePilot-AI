@@ -1,0 +1,10 @@
+{
+  "name": "hirepilot-ai",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "install:frontend": "npm --prefix frontend install",
+    "backend": "cd backend && .venv\\Scripts\\uvicorn app.main:app --reload --host 127.0.0.1 --port 8001"
+  }
+}
